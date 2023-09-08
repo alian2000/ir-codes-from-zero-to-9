@@ -41,16 +41,16 @@ while (true) {
     if (Button1 == "0x00FF58A7") {
         basic.showNumber(9)
     }
-    if (Button1 == "0x807FC03F") {
-        basic.showNumber(10)
+    if (Button1 == "0x00FF20DF") {
+        basic.showString("turnLeft")
     }
-    if (Button1 == "0x00807FD02F") {
-        basic.showNumber(11)
+    if (Button1 == "0x00FF00FF") {
+        basic.showString("STOP")
     }
-    if (Button1 == "0x807F22DD") {
-        basic.showNumber(12)
+    if (Button1 == "0x00FF609F") {
+        basic.showString("turnRight")
     }
-    if (Button1 == "0xFFB04F") {
-        basic.showIcon(IconNames.No)
+    if (Button1 == "0x00FF40BF") {
+        basic.showString("Light")
     }
 }
